@@ -1,6 +1,6 @@
 # Written Response Questions
 
-### 1. According to our research, a machine learning algorithm has an accuracy of 80%. However, when we applied the algorithm to practical use, the accuracy was below the expected accuracy. Describe two or more causes to this.
+#### 1. According to our research, a machine learning algorithm has an accuracy of 80%. However, when we applied the algorithm to practical use, the accuracy was below the expected accuracy. Describe two or more causes to this.
 
 >In practical use cases, data comes from various sources and conditions. Data used for test and validation usually are very similar to training data. Actually in most of the cases all the training, test and validation data come from the same source. So, there are chances that the performance depicted by the evaluation metrics is not indicative of the practical cases where the sources of data fed into the model might be different.
 
@@ -8,11 +8,11 @@ Raw data from different sources might require different preprocessing before bei
 
 Also, accuracy may not be the best metric to represent the model. For imbalanced data, accuracy is deceiving. The model should be evaluated using different metrics to make sure that the model is underperforming. 
 
-### 2.  Please suggest and describe two industry applicable Deep Learning projects you would carry out using a dataset of aerial images.
+#### 2.  Please suggest and describe two industry applicable Deep Learning projects you would carry out using a dataset of aerial images.
 
->  One industry application project involving aerial images can be agriculture. Agriculture applications require accurate land monitoring for support and control of growth of plants which can be done with drone images. Aerial images can also be used to analyze height, plant shape and many other phenotypes in depth. This automatic and easy crop analysis across hude and diverse geographic areas can save farmers from a lot of burden.  
+One industry application project involving aerial images can be agriculture. Agriculture applications require accurate land monitoring for support and control of growth of plants which can be done with drone images. Aerial images can also be used to analyze height, plant shape and many other phenotypes in depth. This automatic and easy crop analysis across hude and diverse geographic areas can save farmers from a lot of burden.  
 	
-	Anoter application project of deep learning in aerial images can be object and person tracking in sports. With further development of onboard camera and processing in the drone. The drone can follow and track peoples and objects real time in unique patterns giving new and unique viewing experience to the audience. Also the tracking can be used for analysis of a players game.  
+Anoter application project of deep learning in aerial images can be object and person tracking in sports. With further development of onboard camera and processing in the drone. The drone can follow and track peoples and objects real time in unique patterns giving new and unique viewing experience to the audience. Also the tracking can be used for analysis of a players game.  
 
 
 #### 3. You have a large data set consisting of high-resolution aerial orthophotos. Your objective is to create an API that detects small objects within an orthophoto (e.g. Trees, Cars, People, etc). Please explain how you would create a Deep Learning Pipeline by elaborating on how you would approach the following steps. (No more than 300 words in total)
