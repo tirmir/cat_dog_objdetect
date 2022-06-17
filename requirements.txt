@@ -6,3 +6,5 @@ numpy
 imutils
 scipy
 scikit-learn
+glob2
+bs4
